@@ -1,0 +1,11 @@
+Flask 
+Flask-Cors 
+tensorflow 
+numpy 
+opencv-python 
+dlib 
+face-recognition 
+pillow 
+scipy 
+gunicorn 
+psutil 
