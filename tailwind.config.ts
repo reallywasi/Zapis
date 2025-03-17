@@ -14,5 +14,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")], // Ensure DaisyUI is properly required
 } satisfies Config;
