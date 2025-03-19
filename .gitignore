@@ -1,15 +1,34 @@
-# Virtual environment
+# Virtual Environments
 ml/ml_env/
 
-# Python-specific ignores
+# Python-specific Ignores
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
-*.egg-info/
 *.egg
+*.egg-info/
+.Python
+/env/
+/venv/
+/*.env
 
-# Maven-specific ignores (optional, already in backend/.gitignore likely)
+# Maven-specific Ignores
 target/
 *.log
+*.jar
+*.war
+*.ear
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDE and Editor Files
+.idea/              # IntelliJ IDEA
+*.iml               # IntelliJ project files
+.vscode/            # VS Code settings
+*.swp               # Vim swap files
+
+# Miscellaneous
+*.DS_Store          # macOS Finder files
+*.bak               # Backup files
