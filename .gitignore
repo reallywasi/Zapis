@@ -1,0 +1,15 @@
+# Virtual environment
+ml/ml_env/
+
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+*.egg
+
+# Maven-specific ignores (optional, already in backend/.gitignore likely)
+target/
+*.log
